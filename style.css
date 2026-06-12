@@ -1,0 +1,61 @@
+
+
+html, body {
+  margin: 0;
+  margin-top: 0.5%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #a4bef3;
+   font-family: myFirstFont;
+}
+
+audio {
+margin-right: 50px;
+}
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/DoubleHomicide.woff2);
+} 
+
+h1{
+  margin-left: 50px;
+  color: #553d36;
+  font-size: 50px;
+
+}
+
+h2{
+  margin-left: 50px;
+  color: #553d36;
+  font-size: 40px;
+}
+
+
+p {
+  font-family:monospace;
+  line-height: 1.7;
+  margin-left: 50px;
+  color: #553d36;
+  font-size: 16px;
+}
+
+#sketch-holder {
+border: 10px solid #553d36;
+border-radius: 20px;
+overflow:hidden;
+width: 90vw;
+height:80vh;
+  outline: 10px solid #553d36;
+  outline-offset: -13px; 
+}
+
+#titel-audio{
+  display: flex;
+  align-items: center;            
+  justify-content: space-between; 
+}
